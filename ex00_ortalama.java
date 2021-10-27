@@ -31,5 +31,6 @@ public class ex00_ortalama
 
         String sonuc = ortalama > 60 ? "Sinifta kaldi" : "Sinifi gecti";
         System.out.println(sonuc);
+        input.close();
     }
 }
