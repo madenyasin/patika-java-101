@@ -16,7 +16,7 @@ public class ex03_taksimetre
         Scanner input = new Scanner(System.in);
 
         double mesafe;
-        System.out.print("Gidilecek yolun kac KM? ");
+        System.out.print("Gidilecek yolun kac km? ");
         mesafe = input.nextDouble();
 
         int acilisUcreti = 10;

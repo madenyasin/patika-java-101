@@ -28,8 +28,6 @@ public class ex04_daireAlanCevre
         "\nDairenin cevresi: " + cevre);
         System.out.println("-----------------------------------------");
 
-
         input.close();
-
     }    
 }
