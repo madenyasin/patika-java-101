@@ -14,9 +14,7 @@ public class ex06_sifreSifirlama
         password = input.nextLine();
 
         if (userName.equals("Patika") && password.equals("java101"))
-        {
             System.out.println("Giris yapildi.");
-        }
         else
         {
             System.out.println("Kullanici adi veya sifre hatali\nSifrenizi sifirlamak istiyorsanız 'E' tusuna basiniz.");
