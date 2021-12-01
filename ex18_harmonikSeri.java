@@ -9,7 +9,7 @@ public class ex18_harmonikSeri {
         int n = input.nextInt();
         double toplam = 0;
         for (int i = 1; i <= n; i++)
-            toplam += 1 / i;
+            toplam += 1.0 / i;
         System.out.print("Sonuc: " + toplam);
         input.close();
     }
