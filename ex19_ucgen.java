@@ -33,7 +33,7 @@ public class ex19_ucgen {
         }
         i = 1;
         m = 7;
-        while (i <= 5){
+        while (i <= 4){
             
             while (j <= i){
                 System.out.print(" ");
