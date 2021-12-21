@@ -18,28 +18,24 @@ public class ex21_ebobEkok {
         int sayi2 = input.nextInt();
         int ebob = 0, ekok = 0;
 
+        int kucukSayi;
+        if (sayi1 > sayi2)
+            kucukSayi = sayi2;
+        else
+            kucukSayi = sayi1;
+
         if (sayi1 == 0 || sayi2 == 0){
             System.out.println("Sifirdan (0) farkli pozitif bir sayi giriniz...");
             System.exit(0);
         }
-
-        if (sayi1 > sayi2){
-            int i = 1;
-            while (i <= sayi1){
-                if (sayi1 % i == 0 && sayi2 % i == 0)
-                    ebob = i;
-                i++;
-            }
-        }
-        else {
-            int i = 1;
-            while (i <= sayi2){
-                if (sayi1 % i == 0 && sayi2 % i == 0)
-                    ebob = i;
-                i++;
-            }
-        }
         
+        int i = 1;
+        while (i <= kucukSayi){
+            if (sayi1 % i == 0 && sayi2 % i == 0)
+                ebob = i;
+            i++;
+        }
+
         ekok = (sayi1 * sayi2) / ebob;
 
         System.out.println(sayi1 + " - " + sayi2 + " >> Ebob > " + ebob);
